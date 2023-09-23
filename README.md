@@ -4,6 +4,7 @@ Chess Chess is a version of Chess (obivously) that specializes in allowing playe
 
 As you can tell, I really dislike that part of Chess.
 
+Heavily inspired by https://github.com/tssovi/grokking-the-object-oriented-design-interview/blob/master/object-oriented-design-case-studies/design-chess.md
 ### System Requirements
 
 1. Players will be able to set up the board in a turn-by-turn basis
@@ -15,8 +16,11 @@ As you can tell, I really dislike that part of Chess.
 
 ### Class Diagram
 
-Player: Holds the status of the player
-Tile: Placeable box for chess pieces
-Board: Builds the 8x8 chess board using Tile
-GameObserver: Records the current game state
-GameLogger: Records the previous game states and holds them
+- Player: Holds the status of the player
+- Tile: Placeable box for chess pieces
+- Board: Builds the 8x8 chess board using Tile
+- Piece: Playable chess piece put on the board
+- PieceDeck: Group of pieces used to set up the start of the game
+- Mover: Keeps track of the start and end point of pieces
+- GameObserver: Records the current game state
+- GameLogger: Records the previous game states and holds them
