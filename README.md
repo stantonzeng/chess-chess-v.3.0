@@ -16,11 +16,15 @@ Heavily inspired by https://github.com/tssovi/grokking-the-object-oriented-desig
 
 ### Class Diagram
 
-- Player: Holds the status of the player
-- Tile: Placeable box for chess pieces
-- Board: Builds the 8x8 chess board using Tile
-- Piece: Playable chess piece put on the board
-- PieceDeck: Group of pieces used to set up the start of the game
-- Mover: Keeps track of the start and end point of pieces
-- GameObserver: Records the current game state
-- GameLogger: Records the previous game states and holds them
+- **Player**: Holds the status of the player
+- **Tile**: Placeable box for chess pieces
+- **Board**: Builds the 8x8 chess board using Tile
+- **Piece**: Playable chess piece put on the board
+- **PieceDeck**: Group of pieces used to set up the start of the game
+- **Mover**: Keeps track of the start and end point of pieces
+- **GameObserver**: Records the current game state
+- **GameLogger**: Records the previous game states and holds them
+
+Account | Player | Game UML diagram
+![image](https://github.com/stantonzeng/chess-chess-v.3.0/assets/44949352/c1651617-32e5-4932-92a1-6de9e87c9e1e)
+
