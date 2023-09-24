@@ -25,6 +25,6 @@ Heavily inspired by https://github.com/tssovi/grokking-the-object-oriented-desig
 - **GameObserver**: Records the current game state
 - **GameLogger**: Records the previous game states and holds them
 
-Account | Player | Game UML diagram
+#### Account | Player | Game UML diagram
 ![image](https://github.com/stantonzeng/chess-chess-v.3.0/assets/44949352/c1651617-32e5-4932-92a1-6de9e87c9e1e)
 
