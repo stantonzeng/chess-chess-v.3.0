@@ -12,6 +12,8 @@ app.use(router)
 
 app.mount('#app')
 
+// **************************************************************************************
+
 const board = createApp(Board)
 
 board.mount('#chess-board')

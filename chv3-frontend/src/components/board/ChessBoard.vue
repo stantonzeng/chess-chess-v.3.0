@@ -1,8 +1,15 @@
 <script setup lang="ts">
-import { TheChessboard } from 'vue3-chessboard';
+import { TheChessboard, type BoardConfig } from 'vue3-chessboard';
 import 'vue3-chessboard/style.css';
+
+const boardConfig: BoardConfig = {
+  coordinates: false,
+  autoCastle: false,
+  orientation: 'black',
+};
 </script>
 
 <template>
-  <TheChessboard />
+  <TheChessboard :board-config="boardConfig" />
+  <div>Position: </div>
 </template>
